@@ -6,7 +6,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
 
-      <Link href="/profile">Go to profile</Link>
+    
       <Link href="/notifications">Go to notifications</Link>
 
     </View>
