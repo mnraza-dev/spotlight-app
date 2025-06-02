@@ -1,14 +1,4 @@
-import { Link } from "expo-router";
-import { View } from "react-native";
-import { styles } from "../styles/auth.styles";
-
+import { Redirect } from 'expo-router';
 export default function Index() {
-  return (
-    <View style={styles.container}>
-
-      <Link href="/profile">Go to profile</Link>
-      <Link href="/notifications">Go to notifications</Link>
-     
-    </View>
-  );
+    return <Redirect href="/(tabs)/index" />;
 }
