@@ -7,6 +7,14 @@ export default function TabsLayout() {
     return (
         <Tabs screenOptions={{
             tabBarShowLabel: false,
+            headerShown: false,
+            tabBarActiveTintColor: COLORS.primary,
+            tabBarInactiveTintColor: COLORS.grey,
+            tabBarStyle: {
+                backgroundColor: COLORS.background,
+                borderTopWidth: 1,
+                borderTopColor: COLORS.surfaceLight,
+            },
         }}>
             <Tabs.Screen name="index" options={{
                 tabBarIcon: ({ size, color }) => <Ionicons name="home" size={size} color={color} />,
