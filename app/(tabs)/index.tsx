@@ -8,7 +8,7 @@ export default function Index() {
 
       <Link href="/profile">Go to profile</Link>
       <Link href="/notifications">Go to notifications</Link>
-     
+
     </View>
   );
 }
