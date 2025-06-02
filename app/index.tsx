@@ -1,4 +1,4 @@
-import { Pressable, Text, TouchableOpacity, View } from "react-native";
+import { Image, Pressable, Text, TouchableOpacity, View } from "react-native";
 import { styles } from "../styles/auth.styles";
 
 export default function Index() {
@@ -8,6 +8,7 @@ export default function Index() {
       <TouchableOpacity style={styles.button} onPress={() => alert("clicked")}>
         <Text style={styles.buttonText}>Click me</Text>
       </TouchableOpacity>
+      <Image source={require("../assets/images/icon.png")} style={styles.logo} />
 
       <Pressable style={styles.button} onPress={() => alert("clicked")}>
         <Text style={styles.buttonText}>Click me</Text>
